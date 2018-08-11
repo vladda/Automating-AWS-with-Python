@@ -5,9 +5,13 @@ name = "pypi"
 
 [packages]
 "boto3" = "*"
+click = "*"
 
 [dev-packages]
 ipython = "*"
 
 [requires]
 python_version = "3.6"
+
+[scripts]
+shell = "/bin/bash"
